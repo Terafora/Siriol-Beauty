@@ -4,6 +4,21 @@ body {
     margin: 0;
 }
 
+// Top Contact Section
+
+.top-contact {
+    padding: 1rem;
+}
+
+.top-contact-left i{
+    padding-left: 0.5rem;
+}
+
+.top-contact-right i {
+    margin-right: 0.5rem;
+}
+
+
 // Nav Section 
 
 
@@ -11,7 +26,7 @@ body {
 // Hero Section
 
 .hero-section {
-    background-image: url("../images/HeroImage.jpg");
+    background: url('../images/hero-image.jpg') center/cover no-repeat;
 }
 
 .hero-text-content {
