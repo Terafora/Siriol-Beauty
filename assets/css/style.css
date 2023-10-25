@@ -4,10 +4,17 @@ body {
     margin: 0;
 }
 
-// Top Contact Section
+/* General Stylings */
+
+.primary-colour {
+    background-color: #CDA582;
+}
+
+/* Top Contact Section */
 
 .top-contact {
     padding: 1rem;
+    color: #fff;
 }
 
 .top-contact-left i{
@@ -19,11 +26,13 @@ body {
 }
 
 
-// Nav Section 
+/* Nav Section */
 
+nav {
+    color:#000;
+}
 
-
-// Hero Section
+/* Hero Section */
 
 .hero-section {
     background: url('../images/hero-image.jpg') center/cover no-repeat;
