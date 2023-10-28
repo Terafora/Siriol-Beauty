@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
 
+html {
+    overflow-x: hidden;
+}
 
 body {
     border: 0;
     padding: 0;
     margin: 0;
+
 }
 
 /* General Stylings */
@@ -70,17 +74,14 @@ nav {
 }
 
 .brief-section h2{
-    font-size: 2rem;
-    color: #CDA582;
-}
-
-.brief-section-span {
-    font-size: 1.5rem;
     font-weight: 700;
-    color: #000;
+    line-height: 1.8rem;
 }
 
-
+.brief-section h2 span {
+    color: #CDA582;
+    letter-spacing: 0.15rem;
+}
 
 
 
