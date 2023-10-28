@@ -35,7 +35,9 @@ nav {
 /* Hero Section */
 
 .hero-section {
-    background: url('../images/hero-image.jpg') center/cover no-repeat;
+    background: url('../images/massage.jpg') center/cover no-repeat;
+    height: 80vh;
+
 }
 
 .hero-text-content {
