@@ -31,6 +31,12 @@ i, a {
     width: 100px;
 }
 
+hr {
+    width: 70%;
+    border: 1px solid #CDA582;
+    margin: 10px auto;
+}
+
 /* Top Contact Section */
 
 .top-contact {
@@ -102,10 +108,18 @@ nav {
         max-width: 50%;
         height: auto;
         border-radius: 0 0 50% 0;
-        aspect-ratio: auto || 1 / 1;
     }
 
-    .brief-section .info-section{
+.hair-bg {
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: -1;
+}
 
-    }
+.hair-bg img {
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
 }
