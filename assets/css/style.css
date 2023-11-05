@@ -102,6 +102,7 @@ nav {
         max-width: 50%;
         height: auto;
         border-radius: 0 0 50% 0;
+        aspect-ratio: auto || 1 / 1;
     }
 
     .brief-section .info-section{
