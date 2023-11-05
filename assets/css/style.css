@@ -26,6 +26,11 @@ i, a {
     font-family: 'Inter', sans-serif;
 }
 
+.animation-points {
+    height: 100px;
+    width: 100px;
+}
+
 /* Top Contact Section */
 
 .top-contact {
